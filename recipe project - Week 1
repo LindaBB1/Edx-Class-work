@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+<!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+<head>
+    <title>Recipe Project</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <style>
+        /* following two viewport lines are equivalent to meta viewport statement above, needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }           @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+    </style>
+
+    <!-- Uncomment the following scripts if you convert your "Standard HTML5" project into a "Cordova" project. -->
+    <!-- <script src="cordova.js"></script> -->          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <!-- <script src="js/app.js"></script> -->           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <!-- <script src="xdk/init-dev.js"></script> -->     <!-- normalizes device and document ready events, see README for details -->
+</head>
+
+<body>
+<h1> Recipes I have Collected</h1>
+    <h2> Strawberry-Cheesecake Cookie Bars</h2>  
+    <p>You will love these scrumptious cheesecake bars made with only 5 ingredients!
+</p>
+    <h3> Ingredients</h3>
+      <ul>
+          <li>1 roll (16.5 oz) Pillsbury™ refrigerated sugar cookies</li>
+          <li>3 packages (8 oz each) cream cheese, softened</li>
+          <li>1/2 cup sugar</li>
+          <li>3 eggs</li>
+          <li>1/2 cup seedless strawberry jam (or raspberry jam, if desired)</li>
+    </ul>
+    <h3>6 Easy Steps</h3>
+      <ol>
+          <li> Heat oven to 350°F. Press cookie dough evenly in bottom of ungreased 13x9-inch pan. (If dough is sticky, use floured fingers.)</li>
+          <li> In large bowl, beat cream cheese and sugar with electric mixer on medium speed until blended. Add eggs, one at a time, beating on low speed after each, just until blended. (Don’t overbeat.) Spread cream cheese filling in pan over dough.</li>
+          <li> Place jam in small resealable food-storage plastic bag; seal bag. Cut off small corner of bag. Squeeze jam on cream cheese mixture in 5 thick lines the length of the pan.</li>
+          <li> Use knife to pull all jam lines from top to bottom through cream cheese mixture at 1-inch intervals.</li>
+          <li> Bake 55 to 60 minutes or until filling is set in center. Remove from oven to cooling rack. Cool 30 minutes. Refrigerate at least 1 1/2 hours. To serve, cut into 6 rows by 3 rows. Store covered in refrigerator.</li>
+          <li> ENJOY!</li>
+    </ol>
+    
+</body>
+</html>
